@@ -19,6 +19,21 @@ body {
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;          /* Likely future */   
   margin-top: 1em;
+  font-size: 2em;
+}
+.user_input::-webkit-input-placeholder {
+  font-size: .8em;
+}
+
+.user_input:-moz-placeholder { /* Firefox 18- */
+  font-size: .8em;
+}
+.user_input::-moz-placeholder {  /* Firefox 19+ */
+  font-size: .8em;
+}
+
+.user_input:-ms-input-placeholder {  
+  font-size: .8em;
 }
 
 *:focus {
@@ -27,6 +42,7 @@ body {
 
 .input_container {
   text-align: center;
+  cursor: pointer;
 }
 
 .btn_container {
@@ -38,6 +54,7 @@ body {
   border-radius: 50%;
   height: 200px;
   width: 200px;
+  font-size: 3em;
 }
 
 .btn_calculate:hover {
