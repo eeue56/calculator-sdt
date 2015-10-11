@@ -1,0 +1,46 @@
+body {
+  background-color: #4F8DC0;
+}
+
+.wrapper {
+  margin-top: 2em;
+}
+
+.user_input {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */   
+  margin-top: 1em;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.input_container {
+  text-align: center;
+}
+
+.btn_container {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.btn_calculate {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.btn_calculate:hover {
+  cursor: pointer;
+}
+
